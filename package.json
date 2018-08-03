@@ -1,0 +1,31 @@
+{
+  "name": "web3-events-redis",
+  "version": "1.0.0",
+  "description": "web3-events-redis",
+  "author": "Igor Berlenko",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7flash/web3-events-redis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7flash/web3-events-redis/issues"
+  },
+  "homepage": "https://github.com/7flash/web3-events-redis#readme",
+  "dependencies": {
+    "web3": "1.0.0-beta.24",
+    "web3-stream": "0.0.2",
+    "web3-wallet": "^0.3.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "fakeredis": "^2.0.0",
+    "mocha": "^5.2.0",
+    "sinon": "^6.1.4"
+  }
+}
