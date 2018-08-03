@@ -1,3 +1,9 @@
+## Install
+`npm install --save web3-events-redis`
+
+## Example:
+
+```
 const Web3Wallet = require("web3-wallet");
 const { Web3EventStream } = require("web3-stream");
 const RedisStream = require("web3-events-redis")
@@ -14,3 +20,4 @@ const web3Stream = new Web3EventStream(web3, contract.Transfer, {}, { fromBlock:
 const redisStream = new RedisStream({ redisClient, collectionName })
 
 web3Stream.pipe(redisStream)
+```
